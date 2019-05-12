@@ -80,16 +80,19 @@ h2 {
 	color: white;
 	margin: 1%;
 }
-.right {
+#right {
 	margin: 1%;
 }
+/* html #right:hover {
+	background: -webkit-linear-gradient(rgb(245, 153, 242), rgb(132, 213, 233));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} */
 
 html .nav-link {
 	color: white;
 }
-html .fa-linkedin:hover {
-	color: white;
-}
+
 a {
 	font-family: 'Julius Sans One', sans-serif;
 	color: white;
@@ -186,4 +189,28 @@ li {
 }
 .center {
 	margin-top: 1%;
+}
+.fa-medium {
+	color: white;
+	font-size: 30px;
+}
+.fa-medium:hover {
+	background: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.fa-github-square:hover {
+	background: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.fa-linkedin:hover {
+	background: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.fa-envelope:hover {
+	background: white;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

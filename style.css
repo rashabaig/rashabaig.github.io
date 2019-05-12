@@ -1,45 +1,186 @@
-h1 {
-    font-family: 'Julius Sans One', sans-serif;
-    text-align: center;
-    color: #EDCDC2;
-    font-weight: bolder;
-    font-size: 50px;
-    margin-bottom: 5px;
+html {
+	scroll-behavior: smooth;
 }
-nav {
-    font-family: 'Poiret One', cursive;
-    justify-content: space-around;
-    height: 50px;
-    background-color: #AF9483;
-    display: flex;
-    align-items: center;
+body {
+	font-family: 'Julius Sans One', sans-serif;
 }
-main {
-    font-family: 'Poiret One', cursive;
-    font-weight: bolder;
 
-}
-.description {
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 20px;
-    color:darkgray;
-    margin: 0 auto;
-    margin-top: 0%;
-}
-nav a {
-    color: white;
-    font-weight: bolder;
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 100px;
+	text-shadow: 2px 2px darkgrey;
+	display: block;
+	padding-top: 200px;
 }
 p {
-    color: darkgray;
-    font-size: 20px;
+	text-align: center;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 20px;
+	padding: 3%;
+}
+
+nav a:hover {
+	font-weight: bolder;
+	background: -webkit-linear-gradient(rgb(245, 153, 242), rgb(132, 213, 233));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-radius: 8px;
+}
+
+html span {
+	color: white;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(rgb(245, 153, 242), rgb(132, 213, 233));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+.title {
+	background-image: url(./images/pic2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+}
+
+html h5 {
+	font-weight: bolder;
+	background: -webkit-linear-gradient(rgb(245, 153, 242), rgb(132, 213, 233));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Julius Sans One', sans-serif;
+}
+.bcard {
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	margin-top: 1%;
+}
+h3 {
+	color: white;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+	display: inline-block;
+}
+.fa-envelope {
+	font-size: 30px;
+	margin: 1%;
+	color: white;
+}
+.fa-linkedin {
+	font-size: 30px;
+	color: white;
+	margin: 1%;
+}
+.right {
+	margin: 1%;
+}
+
+html .nav-link {
+	color: white;
+}
+html .fa-linkedin:hover {
+	color: white;
 }
 a {
-    color: #AF9483;
+	font-family: 'Julius Sans One', sans-serif;
+	color: white;
 }
-div {
-    background-image: url("evie-shaffer-771800-unsplash.jpg");
-    background: no-repeat;
-    text-align: center;
-    justify-content: center;
+nav {
+	background-color: black;
+}
+html .btn-primary {
+	background-color: black;
+	border-color: black;
+}
+.contactContainer {
+	display: flex;
+	justify-content: space-evenly;
+}
+/* .wrapper {
+	display: grid;
+	grid-template-columns: 30% 40% 30%;
+	grid-template-rows: 15% 15% 10% 50% 10%;
+} */
+.about {
+	grid-column: 1 / span 1;
+	grid-row: 1 / span 1;
+	/* border-right: 5px black solid; */
+	background-color: black;
+}
+.aboutDescription {
+	grid-column: 2 / span 3;
+	grid-row: 1 / span 1;
+}
+.technologies {
+	/* grid-column: 3 / span 1;
+	grid-row: 2 / span 1; */
+	/* border-bottom: 5px solid white; */
+	background-color: black;
+	/* border-top: 5px solid white; */
+}
+.technologiesDescription {
+	/* grid-column: 1 / span 2;
+	grid-row: 2 / span 1; */
+	/* border-top: 5px solid black; */
+	/* border-bottom: 5px solid black; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+.projects {
+	grid-column: 1 / span 3;
+	grid-row: 3 / span 1;
+	background-color: black;
+	/* border-top: 5px solid white; */
+}
+.projectsDescription {
+	grid-column: 1 / span 3;
+	grid-row: 4 / span 2;
+}
+footer {
+	background-color: black;
+	/* display: flex;
+	flex-direction: row; */
+	/* display: inline-block; */
+}
+p .footer {
+	/* display: inline-block; */
+	color: white;
+	text-align: right;
+}
+h6 {
+	text-align: right;
+	display: inline-block;
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
+}
+.fa-github-square {
+	color: white;
+	font-size: 30px;
+}
+.btn-primary:hover {
+	background: black;
+	background: -webkit-linear-gradient(rgb(245, 153, 242), rgb(132, 213, 233));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+html .card {
+	/* border: 5px solid black; */
+	margin-bottom: 1%;
+}
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+li {
+	font-family: 'Poiret One', sans-serif;
 }

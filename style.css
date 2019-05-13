@@ -53,6 +53,7 @@ html h5 {
 	-webkit-text-fill-color: transparent;
 	font-family: 'Julius Sans One', sans-serif;
 }
+
 .bcard {
 	display: flex;
 	justify-content: center;
@@ -83,12 +84,10 @@ h2 {
 #right {
 	margin: 1%;
 }
-/* html #right:hover {
-	background: -webkit-linear-gradient(rgb(245, 153, 242), rgb(132, 213, 233));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-} */
-
+.right {
+	right: 0%;
+	margin-right: 1%;
+}
 html .nav-link {
 	color: white;
 }
@@ -108,56 +107,28 @@ html .btn-primary {
 	display: flex;
 	justify-content: space-evenly;
 }
-/* .wrapper {
-	display: grid;
-	grid-template-columns: 30% 40% 30%;
-	grid-template-rows: 15% 15% 10% 50% 10%;
-} */
 .about {
-	/* grid-column: 1 / span 1;
-	grid-row: 1 / span 1; */
-	/* border-right: 5px black solid; */
 	background-color: black;
 }
-/* .aboutDescription {
-	grid-column: 2 / span 3;
-	grid-row: 1 / span 1;
-} */
 .technologies {
-	/* grid-column: 3 / span 1;
-	grid-row: 2 / span 1; */
-	/* border-bottom: 5px solid white; */
 	background-color: black;
-	/* border-top: 5px solid white; */
 }
 .technologiesDescription {
-	/* grid-column: 1 / span 2;
-	grid-row: 2 / span 1; */
-	/* border-top: 5px solid black; */
-	/* border-bottom: 5px solid black; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	justify-content: space-evenly;
 }
 .projects {
-	/* grid-column: 1 / span 3;
-	grid-row: 3 / span 1; */
 	background-color: black;
-	/* border-top: 5px solid white; */
 }
-.projectsDescription {
-	/* grid-column: 1 / span 3;
-	grid-row: 4 / span 2; */
-}
+
 footer {
 	background-color: black;
-	/* display: flex;
-	flex-direction: row; */
-	/* display: inline-block; */
+	display: flex;
+	justify-content: right;
 }
 p .footer {
-	/* display: inline-block; */
 	color: white;
 	text-align: right;
 }
@@ -178,7 +149,6 @@ h6 {
 	-webkit-text-fill-color: transparent;
 }
 html .card {
-	/* border: 5px solid black; */
 	margin-bottom: 1%;
 }
 h2 {
@@ -213,4 +183,7 @@ li {
 	background: white;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+#footerText {
+	text-align: right;
 }

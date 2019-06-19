@@ -148,6 +148,7 @@ footer {
 	background-color: black;
 	display: flex;
 	justify-content: right;
+	margin-top: 3%;
 }
 p .footer {
 	color: white;
@@ -176,6 +177,10 @@ html .card {
 }
 h2 {
 	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+.projectsHeading {
+	margin-bottom: 4%;
 }
 li {
 	font-family: 'Raleway', sans-serif;
